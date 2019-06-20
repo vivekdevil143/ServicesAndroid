@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+   android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/txtviewthreadcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <Button
+        android:layout_marginTop="80dp"
+        android:id="@+id/startservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/stopservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="269dp" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/bindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bind Service"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/UnboundService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UnBound Service"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/getrandomnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Random Number"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+
+</LinearLayout>
